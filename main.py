@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
 
-TOKEN = os.getenv("7665033658:AAGotyk4rZjPijlp7ArdeofH77U1aJi5nQo")  # Railway-তে ENV var থেকে টোকেন নেবে
+TOKEN = os.getenv("BOT_TOKEN")  # Railway-তে ENV var থেকে টোকেন নেবে
 
 # ইউজারদের স্ট্যাটাস ট্র্যাকিং
 user_status = {}
